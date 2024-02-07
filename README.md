@@ -74,4 +74,6 @@ Advantages and need of automation testing tools
 Project  Structure:
 
 
-Create the Project folder which contains files as shown below:![image1](https://github.com/lingeshwaran05/Katalon_Git_Integration/assets/76167753/b625ec94-cd16-4060-93ca-19356674d7fe)
+Create the Project folder which contains files as shown below:
+
+![image1](https://github.com/lingeshwaran05/Katalon_Git_Integration/assets/76167753/b625ec94-cd16-4060-93ca-19356674d7fe)
