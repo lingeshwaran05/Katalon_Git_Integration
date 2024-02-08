@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateSearchFieldItem_002,Chrome 121.0.0.0,,,2024-02-08 10:56:08,2024-02-08 10:57:40,1m - 32.291s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_002,Chrome 121.0.0.0,,,2024-02-08 10:56:11,2024-02-08 10:57:40,1m - 28.930s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,2024-02-08 10:56:12,2024-02-08 10:56:14,2.683s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,2024-02-08 10:56:14,2024-02-08 10:56:17,2.944s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-08 10:56:18,2024-02-08 10:56:20,2.444s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-02-08 10:56:20,2024-02-08 10:56:48,27.659s,PASSED
+"selectOptionByLabel(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/select_All Departments""), Books, false)",Chrome 121.0.0.0,,,2024-02-08 10:56:48,2024-02-08 10:56:53,4.677s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""))",Chrome 121.0.0.0,,,2024-02-08 10:56:53,2024-02-08 10:56:53,0.539s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), ""Da vin ci code"")",Chrome 121.0.0.0,,,2024-02-08 10:56:53,2024-02-08 10:56:55,1.730s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-08 10:56:55,2024-02-08 10:57:05,9.737s,PASSED
+"selectOptionByLabel(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/select_All Departments""), Electronics, false)",Chrome 121.0.0.0,,,2024-02-08 10:57:05,2024-02-08 10:57:07,2.386s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-08 10:57:07,2024-02-08 10:57:08,0.516s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), ""Mobile Phones"")",Chrome 121.0.0.0,,,2024-02-08 10:57:08,2024-02-08 10:57:09,1.931s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-08 10:57:09,2024-02-08 10:57:16,6.995s,PASSED
+"selectOptionByLabel(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/select_All Departments""), All_departments, false)",Chrome 121.0.0.0,,,2024-02-08 10:57:16,2024-02-08 10:57:18,1.143s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-08 10:57:18,2024-02-08 10:57:19,0.934s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), ""Washing Machines"")",Chrome 121.0.0.0,,,2024-02-08 10:57:19,2024-02-08 10:57:20,1.418s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-08 10:57:20,2024-02-08 10:57:26,6.392s,PASSED
+"selectOptionByLabel(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/select_All Departments""), Furniture, false)",Chrome 121.0.0.0,,,2024-02-08 10:57:26,2024-02-08 10:57:29,2.640s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-08 10:57:29,2024-02-08 10:57:29,0.503s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), ""Wooden Tables"")",Chrome 121.0.0.0,,,2024-02-08 10:57:29,2024-02-08 10:57:31,1.138s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-08 10:57:31,2024-02-08 10:57:39,8.066s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-08 10:57:39,2024-02-08 10:57:40,1.597s,PASSED
+Start tear down : tearDownTestCase,Chrome 121.0.0.0,,,2024-02-08 10:57:40,2024-02-08 10:57:40,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,2024-02-08 10:57:40,2024-02-08 10:57:40,0.007s,PASSED

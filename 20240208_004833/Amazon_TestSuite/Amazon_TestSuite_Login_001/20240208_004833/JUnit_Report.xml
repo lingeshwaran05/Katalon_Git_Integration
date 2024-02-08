@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_TestSuite_Login_001" time="35.36" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_TestSuite_Login_001" tests="1" failures="0" errors="0" time="35.36" skipped="0" timestamp="2024-02-08 00:48:43" hostname="Admin - DESKTOP-QJ4UHOV" id="Test Suites/Amazon_TestSuite/Amazon_TestSuite_Login_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Admin\\Katalon Studio\\My First Web UI Project\\Reports\\20240208_004833\\Amazon_TestSuite\\Amazon_TestSuite_Login_001\\20240208_004833"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\Katalon Studio\\My First Web UI Project\\Reports\\20240208_004833\\Amazon_TestSuite\\Amazon_TestSuite_Login_001\\20240208_004833\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - DESKTOP-QJ4UHOV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.94"/>
+         <property name="sessionId" value="bb9cfc9571a08a60678bffe2304ff78f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Amazon_Login_001" time="25.716" classname="Test Cases/TC_Amazon_Login_001" status="PASSED">
+         <system-out><![CDATA[2024-02-08 00:48:52 - [TEST_CASE][PASSED] - Test Cases/TC_Amazon_Login_001: Test Cases/TC_Amazon_Login_001
+
+2024-02-08 00:48:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: ''
+
+2024-02-08 00:48:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2024-02-08 00:48:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2024-02-08 00:48:53 - [TEST_STEP][PASSED] - println(openBrowser("")): Browser is opened with url: ''
+
+2024-02-08 00:48:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-02-08 00:48:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-08 00:48:54 - [MESSAGE][INFO] - User set preference: ['args', '[user-data-dir=C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 10, profile-directory=Profile 10]']
+
+2024-02-08 00:48:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-08 00:48:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-08 00:48:56 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2024-02-08 00:48:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-08 00:48:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-02-08 00:48:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-08 00:48:57 - [MESSAGE][INFO] - User set preference: ['args', '[user-data-dir=C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 10, profile-directory=Profile 10]']
+
+2024-02-08 00:48:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-08 00:48:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-08 00:48:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2024-02-08 00:49:01 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2024-02-08 00:49:01 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2024-02-08 00:49:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-08 00:49:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-02-08 00:49:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-08 00:49:02 - [MESSAGE][INFO] - User set preference: ['args', '[user-data-dir=C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Profile 10, profile-directory=Profile 10]']
+
+2024-02-08 00:49:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-08 00:49:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-08 00:49:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2024-02-08 00:49:06 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2024-02-08 00:49:06 - [TEST_STEP][PASSED] - click(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon_Home/span_Sign in")): Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon_Home/span_Sign in' is clicked on
+
+2024-02-08 00:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon_Home/span_Sign in' is clicked on
+
+2024-02-08 00:49:11 - [TEST_STEP][PASSED] - setText(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Email or mobile phone number_email"), "9500570674"): Text '9500570674' is set on object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Email or mobile phone number_email'
+
+2024-02-08 00:49:13 - [MESSAGE][PASSED] - Text '9500570674' is set on object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Email or mobile phone number_email'
+
+2024-02-08 00:49:13 - [TEST_STEP][PASSED] - click(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Enter your email or mobile phone number_continue")): Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Enter your email or mobile phone number_continue' is clicked on
+
+2024-02-08 00:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Enter your email or mobile phone number_continue' is clicked on
+
+2024-02-08 00:49:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Forgot your password_password"), "MjXmt/ZdOsUxI2HQzRYs1A=="): Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Forgot your password_password'
+
+2024-02-08 00:49:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Forgot your password_password'
+
+2024-02-08 00:49:17 - [TEST_STEP][PASSED] - click(findTestObject("AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Enter your password_signInSubmit")): Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Enter your password_signInSubmit' is clicked on
+
+2024-02-08 00:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Enter your password_signInSubmit' is clicked on
+
+2024-02-08 00:49:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-08 00:49:18 - [MESSAGE][PASSED] - Browser is closed
+
+2024-02-08 00:49:18 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2024-02-08 00:49:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-08 00:49:18 - [MESSAGE][PASSED] - Browser is closed
+
+2024-02-08 00:49:18 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully
+
+2024-02-08 00:49:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2024-02-08 00:49:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2024-02-08 00:49:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2024-02-08 00:49:18 - [TEST_STEP][PASSED] - println(closeBrowser()): Browser is closed
+
+2024-02-08 00:49:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-08 00:48:43 - [TEST_SUITE][PASSED] - Amazon_TestSuite_Login_001: Test Cases/TC_Amazon_Login_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

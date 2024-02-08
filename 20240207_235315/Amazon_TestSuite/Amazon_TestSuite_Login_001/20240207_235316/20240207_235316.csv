@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_Login_001,Chrome 121.0.0.0,,,2024-02-07 23:53:26,2024-02-07 23:53:59,32.410s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Login_001,Chrome 121.0.0.0,,,2024-02-07 23:53:27,2024-02-07 23:53:59,32.199s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-07 23:53:27,2024-02-07 23:53:30,2.508s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-02-07 23:53:30,2024-02-07 23:53:32,2.141s,PASSED
+"click(findTestObject(""Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 121.0.0.0,,,2024-02-07 23:53:32,2024-02-07 23:53:41,9.594s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Email or mobile phone number_email""), ""9500570674"")",Chrome 121.0.0.0,,,2024-02-07 23:53:41,2024-02-07 23:53:54,13.235s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Enter your email or mobile phone number_continue""))",Chrome 121.0.0.0,,,2024-02-07 23:53:54,2024-02-07 23:53:56,1.730s,PASSED
+"setEncryptedText(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Forgot your password_password""), ""MjXmt/ZdOsUxI2HQzRYs1A=="")",Chrome 121.0.0.0,,,2024-02-07 23:53:56,2024-02-07 23:53:57,1.034s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_Login_OR/Page_Amazon_Sign-in/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,2024-02-07 23:53:57,2024-02-07 23:53:58,0.533s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-07 23:53:58,2024-02-07 23:53:59,1.051s,PASSED

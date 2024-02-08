@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 121.0.0.0,,,2024-02-07 23:30:16,2024-02-07 23:31:56,1m - 39.706s,PASSED
+,,,,,,,
+Test Cases/login,Chrome 121.0.0.0,,,2024-02-07 23:30:17,2024-02-07 23:30:40,23.575s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-07 23:30:17,2024-02-07 23:30:20,2.483s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-02-07 23:30:20,2024-02-07 23:30:21,1.527s,PASSED
+"click(findTestObject(""Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 121.0.0.0,,,2024-02-07 23:30:21,2024-02-07 23:30:23,2.373s,PASSED
+"setText(findTestObject(""Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""9500570674"")",Chrome 121.0.0.0,,,2024-02-07 23:30:23,2024-02-07 23:30:36,12.848s,PASSED
+"click(findTestObject(""Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Chrome 121.0.0.0,,,2024-02-07 23:30:36,2024-02-07 23:30:38,1.451s,PASSED
+"setEncryptedText(findTestObject(""Page_Amazon Sign-In/input_Forgot your password_password""), ""MjXmt/ZdOsUxI2HQzRYs1A=="")",Chrome 121.0.0.0,,,2024-02-07 23:30:38,2024-02-07 23:30:39,1.060s,PASSED
+"click(findTestObject(""Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,2024-02-07 23:30:39,2024-02-07 23:30:39,0.433s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-07 23:30:39,2024-02-07 23:30:40,1.029s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 121.0.0.0,,,2024-02-07 23:30:40,2024-02-07 23:31:56,1m - 15.888s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-07 23:30:41,2024-02-07 23:30:42,1.401s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-02-07 23:30:42,2024-02-07 23:30:45,2.430s,PASSED
+"selectOptionByLabel(findTestObject(""Page_Amazon.com. Spend less. Smile more/Page_Amazon.com. Spend less. Smile more/select_All Departments""), Books, false)",Chrome 121.0.0.0,,,2024-02-07 23:30:45,2024-02-07 23:30:47,2.579s,PASSED
+"setText(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""Washing machine"")",Chrome 121.0.0.0,,,2024-02-07 23:30:47,2024-02-07 23:30:49,1.708s,PASSED
+"click(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-07 23:30:49,2024-02-07 23:30:59,9.789s,PASSED
+"click(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-07 23:30:59,2024-02-07 23:31:00,0.901s,PASSED
+"setText(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""Da vin ci code"")",Chrome 121.0.0.0,,,2024-02-07 23:31:00,2024-02-07 23:31:01,1.450s,PASSED
+"click(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-07 23:31:01,2024-02-07 23:31:06,5.290s,PASSED
+"selectOptionByLabel(findTestObject(""Page_Amazon.com. Spend less. Smile more/Page_Amazon.com. Spend less. Smile more/select_All Departments""), Electronics, false)",Chrome 121.0.0.0,,,2024-02-07 23:31:06,2024-02-07 23:31:11,4.888s,PASSED
+"click(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-07 23:31:11,2024-02-07 23:31:15,3.835s,PASSED
+"setText(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""Mobile Phones"")",Chrome 121.0.0.0,,,2024-02-07 23:31:15,2024-02-07 23:31:20,5.181s,PASSED
+"click(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-07 23:31:20,2024-02-07 23:31:27,6.724s,PASSED
+"selectOptionByLabel(findTestObject(""Page_Amazon.com. Spend less. Smile more/Page_Amazon.com. Spend less. Smile more/select_All Departments""), All_departments, false)",Chrome 121.0.0.0,,,2024-02-07 23:31:27,2024-02-07 23:31:28,1.182s,PASSED
+"click(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-07 23:31:28,2024-02-07 23:31:29,0.840s,PASSED
+"setText(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""Washing Machines"")",Chrome 121.0.0.0,,,2024-02-07 23:31:29,2024-02-07 23:31:31,1.736s,PASSED
+"click(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-07 23:31:31,2024-02-07 23:31:36,5.650s,PASSED
+"selectOptionByLabel(findTestObject(""Page_Amazon.com. Spend less. Smile more/Page_Amazon.com. Spend less. Smile more/select_All Departments""), Furniture, false)",Chrome 121.0.0.0,,,2024-02-07 23:31:36,2024-02-07 23:31:49,12.290s,PASSED
+"click(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-07 23:31:49,2024-02-07 23:31:49,0.515s,PASSED
+"setText(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""Wooden Tables"")",Chrome 121.0.0.0,,,2024-02-07 23:31:49,2024-02-07 23:31:50,1.288s,PASSED
+"click(findTestObject(""Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-07 23:31:50,2024-02-07 23:31:55,4.586s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-07 23:31:55,2024-02-07 23:31:56,1.145s,PASSED
