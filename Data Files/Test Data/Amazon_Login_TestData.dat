@@ -7,11 +7,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>059a89b8-ccc4-4bd5-bac2-fb26bcfc19f0</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataSourceUrl>E:\sf setup files\Test Case.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>Scenarios</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
