@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_ValidateSearchFieldItem_002,Chrome 121.0.0.0,,,2024-02-08 00:02:59,2024-02-08 00:03:52,52.524s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_ValidateSearchFieldItem_002,Chrome 121.0.0.0,,,2024-02-08 00:02:59,2024-02-08 00:03:52,52.257s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-08 00:03:00,2024-02-08 00:03:03,2.839s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-02-08 00:03:03,2024-02-08 00:03:05,1.725s,PASSED
+"selectOptionByLabel(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/select_All Departments""), Books, false)",Chrome 121.0.0.0,,,2024-02-08 00:03:05,2024-02-08 00:03:09,4.018s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""))",Chrome 121.0.0.0,,,2024-02-08 00:03:09,2024-02-08 00:03:09,0.789s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), ""Da vin ci code"")",Chrome 121.0.0.0,,,2024-02-08 00:03:09,2024-02-08 00:03:11,2.011s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-08 00:03:11,2024-02-08 00:03:17,5.077s,PASSED
+"selectOptionByLabel(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/select_All Departments""), Electronics, false)",Chrome 121.0.0.0,,,2024-02-08 00:03:17,2024-02-08 00:03:18,1.164s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-08 00:03:18,2024-02-08 00:03:19,1.025s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), ""Mobile Phones"")",Chrome 121.0.0.0,,,2024-02-08 00:03:19,2024-02-08 00:03:20,1.465s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-08 00:03:20,2024-02-08 00:03:28,7.384s,PASSED
+"selectOptionByLabel(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/select_All Departments""), All_departments, false)",Chrome 121.0.0.0,,,2024-02-08 00:03:28,2024-02-08 00:03:31,3.541s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-08 00:03:31,2024-02-08 00:03:32,0.682s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), ""Washing Machines"")",Chrome 121.0.0.0,,,2024-02-08 00:03:32,2024-02-08 00:03:35,2.846s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-08 00:03:35,2024-02-08 00:03:40,5.807s,PASSED
+"selectOptionByLabel(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/select_All Departments""), Furniture, false)",Chrome 121.0.0.0,,,2024-02-08 00:03:40,2024-02-08 00:03:42,1.624s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-08 00:03:42,2024-02-08 00:03:43,0.803s,PASSED
+"setText(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_field-keywords""), ""Wooden Tables"")",Chrome 121.0.0.0,,,2024-02-08 00:03:43,2024-02-08 00:03:44,1.470s,PASSED
+"click(findTestObject(""AmazonPages/Amazon_ValidateSearchFieldItem_OR/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-08 00:03:44,2024-02-08 00:03:50,6.153s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-08 00:03:51,2024-02-08 00:03:52,1.187s,PASSED
