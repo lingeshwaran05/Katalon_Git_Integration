@@ -7,7 +7,7 @@ Amazon is an American multinational technology company focusing on e-commerce, c
 
 Website : www.amazon.com
 
-
+smartinterz profile : https://smartinternz.com/student-profile/feed/U0IyMDIzMDc4OTI4MA==
 
 Project flow:
 
